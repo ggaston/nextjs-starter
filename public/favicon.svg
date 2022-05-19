@@ -1,0 +1,29 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg">
+<style>
+        path {
+            fill: #ff0000;
+            animation: rainbow 5s infinite alternate;
+        }
+
+        @keyframes rainbow {
+            from {
+               fill: #ff8080;
+            }
+
+            50% {
+                fill: #000000;
+            }
+
+            to {
+                fill: #ff0000;
+            }
+        }
+</style>
+
+ <g transform="translate(-87.456 -24.804)">
+  <g transform="matrix(.42307 0 0 .43986 50.456 14.743)" stroke-width=".26458" aria-label="&lt; &gt;">
+   <path d="m91.978 24.804v0.86299l-2.1911 1.3384 2.1911 1.5193v2.2944l-4.5217-3.1367v-0.10852z"/>
+   <path d="m92.941 30.819v-0.86299l2.1911-1.3384-2.1911-1.5193v-2.2944l4.5217 3.1367v0.10852z"/>
+  </g>
+ </g>
+</svg>

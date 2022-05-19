@@ -1,0 +1,62 @@
+@import url('fonts.css');
+@import url('variables.css');
+
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: var(--font-size-root);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: var(--space-4);
+  background-image: radial-gradient(50% 50% at center, var(--color-dot) 0% var( --dot-size-start),var(--color-space) var( --dot-size-end) 100%);
+  background-size: var(--tile-size) var(--tile-size);
+  background-color: var(--color-red);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-1);
+  font-size: var(--font-size-1);
+  color: var(--text-color);
+}
+
+/** TEXT **/
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-3);
+  line-height: var(--font-lineheight-0);
+  margin-block-start: var(--space-4);
+  margin-block-end: var(--space-4);
+}
+
+h1 .epic {
+  font-size: var(--font-size-5);
+}
+
+h2 {
+  margin-block-start: var(--space-1);
+  margin-block-end: var(--space-3);
+  font-size: var(--font-size-3);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.text-blok:first-of-type {
+  margin-top: var(--space-4);
+  font-size: var(--font-size-2);
+}
+
+p img:not([class]) {
+  float: left;
+  margin-right: var(--space-2);
+}

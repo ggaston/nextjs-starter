@@ -1,0 +1,6 @@
+.content {
+    position: relative;
+    max-width: var(--layout-width-desktop);
+    margin: auto;
+    padding: var(--space-3);
+}

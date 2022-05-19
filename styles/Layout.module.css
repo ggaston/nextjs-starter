@@ -1,0 +1,17 @@
+.container {
+  display: block;
+  position: relative;
+  width: var(--layout-width-wide);
+  margin: auto;
+  padding: var(--space-4);
+  backdrop-filter: blur(2px);
+}
+
+.container:global.narrow {
+  width: var(--layout-width-narrow);
+}
+
+.container:global.wide {
+  width: var(--layout-width-wide);
+}
+

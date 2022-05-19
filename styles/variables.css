@@ -1,0 +1,62 @@
+:root {
+  /* layout */
+  --layout-width-wide: auto;
+  --layout-width-narrow: 650px;
+  --layout-width-desktop: 980px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-dark: #2a3b49;
+  --color-gray-light: #374651;
+  --color-gray-blue: #2a3b49;
+  --color-red: #a64561;
+  --color-violet: #491a64aa;
+
+  /* Fonts */
+  --font-sans: "Cormorant Garamond", Helvetica, sans-serif;
+  --font-size-root: 22px;
+  --font-size-0: 0.75rem;
+  --font-size-1: 1rem;
+  --font-size-2: 1.1rem;
+  --font-size-3: 1.1rem;
+  --font-size-4: 2rem;
+  --font-size-5: 3rem;
+  --font-weight-1: 300;
+  --font-weight-2: 400;
+  --font-weight-3: 600;
+  --font-lineheight-0: 1.1;
+
+  /* Space */
+  --space-1: .5rem;
+  --space-2: calc(var(--space-1) * 2);
+  --space-3: calc(var(--space-1) * 3);
+  --space-4: calc(var(--space-1) * 4);
+
+  /* Backgrounds */
+  --content-bg-color: var(--color-white);
+
+  /* Text */
+  --text-color: var(--color-white);
+  --link-color: var(--color-red);
+
+  /* Dots */
+  --tile-size: 24px;
+  --dot-size-start: 5%;
+  --dot-size-end: 10%;
+  --color-dot: rgba(0, 0, 0, 0);
+  --color-space: var(--color-violet)
+}
+
+@media (max-width: 650px) {
+  :root {
+    --layout-width-narrow: 100%;
+    --layout-width-wide: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+    :root {
+      --layout-width-narrow: 360px;
+      --layout-width-wide: 360px;
+    }
+  }
